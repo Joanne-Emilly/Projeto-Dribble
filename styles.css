@@ -67,6 +67,11 @@ a {
 
 }
 
+a:hover {
+    padding: 10px;
+    background-color: #e6305e54;
+}
+
 form {
     background-image: linear-gradient(to bottom, #200F39, #6025B1);
     background-size: cover;
@@ -121,6 +126,4 @@ footer {
 
 footer:hover {
     background-color: #e6305e54;
-
-
 }
