@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Dosis:wght@200;300;400;500;600;700;800 & family= Montserrat: wght@100;300;400;700 & family= Open+Sans:ital,wght@1,700 & family= Work+Sans:wght@200;300;700;900 & display=swap');
+
+
+:root {
+    --cor0: #BFE7FB;
+    --cor1: #417FAF;
+    --cor2: #296391;
+    --cor3: #09406A;
+    --cor4: #E6305D;
+    --cor5: #22332a;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'android', cursive;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+div.container {
+    background-image: url('./imagens/5472772-ilustracao-da-ilustracao-da-cena-noturna-da-cidade-com-edificio-iluminado-vetor.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    box-shadow: #200F39;
+    border-radius: 5px;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+div.login-img-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+
+
+
+}
+
+a {
+    text-align: center;
+    margin: 8px;
+    display: block;
+    color: rgb(228 74 133);
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+
+}
+
+form {
+    background-image: linear-gradient(to bottom, #200F39, #6025B1);
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+img {
+ 
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    
+}
+
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+  button {
+    background-color: var(--cor4);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+}
+  button:hover {
+    background-color: #200F39;
+  }
+  footer {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  footer:hover {
+    background-color: #e6305e54;
+   
+ 
+  }
