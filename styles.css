@@ -41,7 +41,8 @@ div.container {
     box-shadow: #200F39;
     border-radius: 5px;
     font-size: 100%;
-    vertical-align: baseline;
+    height: 100%;
+    
 }
 
 div.login-img-link {
@@ -68,7 +69,7 @@ a {
 }
 
 a:hover {
-    padding: 10px;
+
     background-color: #e6305e54;
 }
 
@@ -117,13 +118,4 @@ button {
 
 button:hover {
     background-color: #200F39;
-}
-
-footer {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-footer:hover {
-    background-color: #e6305e54;
 }
