@@ -33,7 +33,7 @@ body {
 }
 
 
-div.container {
+main {
     background-image: url('./imagens/5472772-ilustracao-da-ilustracao-da-cena-noturna-da-cidade-com-edificio-iluminado-vetor.jpg');
     background-size: cover;
     background-position: center;
@@ -45,7 +45,7 @@ div.container {
     
 }
 
-div.login-img-link {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,8 +79,9 @@ form {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    height: 600px;
     width: 300px;
-    margin: 50px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
